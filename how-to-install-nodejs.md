@@ -1,6 +1,7 @@
 # How to install Node.js on Windows
 
-## Check
+## Check if node / npm weere installed before
+
 Check NPM version
 `npm -v`
 
@@ -18,6 +19,8 @@ Output
 PS C:\Users\Yan> node -v
 v22.11.0
 ```
+
+If you want to remove them, just to the [#uninstall-nodejs-from-windows](#uninstall-nodejs-from-windows) section.
 
 ## Installation
 
