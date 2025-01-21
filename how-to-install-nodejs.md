@@ -33,6 +33,12 @@ It is a fast Node management.
 winget install Schniz.fnm
 ```
 
+## Setup
+Run PowerShell and use this command
+```
+fnm env --use-on-cd | Out-String | Invoke-Expression
+```
+
 ### Download and install Node.js:
 ```
 fnm install 22
