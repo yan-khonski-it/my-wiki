@@ -67,7 +67,10 @@ fnm install 22
 
 ### Use node.js
 ```
-PS C:\Users\Yan> fnm use v22.13.1
+fnm use v22.13.1
+```
+Expected output
+```
 Using Node v22.13.1
 ```
 
