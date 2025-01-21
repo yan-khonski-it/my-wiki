@@ -87,7 +87,26 @@ node -v # Should print "v22.13.1".
 npm -v # Should print "10.9.2".
 ```
 
-### Uninstall nodejs
+## Update NPM
+After the previous step, it can happen that npm version is not the latest. You can check the latest version
+
+https://docs.npmjs.com/cli/v11/commands/npm-version
+
+Run the command to update npm
+```
+npm install -g npm
+```
+
+The output will be:
+```
+PS C:\Users\Yan> npm install -g npm
+
+removed 11 packages, and changed 39 packages in 5s
+PS C:\Users\Yan> npm -v
+11.0.0
+```
+
+## Uninstall nodejs
 Run the command, where 22 is the version of node.js you want to remove.
 ```
  fnm uninstall 22
