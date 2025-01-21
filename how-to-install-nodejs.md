@@ -20,6 +20,7 @@ v22.11.0
 ```
 
 ## Installation
+
 https://nodejs.org/en/download
 In case, the link above changes, I will put the commands here.
 
@@ -32,6 +33,9 @@ It is a fast Node management.
 ```
 winget install Schniz.fnm
 ```
+
+> Bellow, 
+> **Please, use PowerShell**
 
 ### Install environment variables
 To get envrinment variables names and their values, run this command:
