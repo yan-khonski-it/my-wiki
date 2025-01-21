@@ -33,7 +33,28 @@ It is a fast Node management.
 winget install Schniz.fnm
 ```
 
-## Setup
+### Install environment variables
+To get envrinment variables names and their values, run this command:
+```
+fnm env
+```
+The output will be:
+```
+PS C:\Users\Yan> fnm env
+$env:PATH = "C:\Users\Yan\AppData\Local\fnm_multishells\22812_1737499396918;C:\Dev\python\python-3.12.7\Scripts\;more-path-entries;"
+$env:FNM_MULTISHELL_PATH = "C:\Users\Yan\AppData\Local\fnm_multishells\22812_1737499396918"
+$env:FNM_VERSION_FILE_STRATEGY = "local"
+$env:FNM_DIR = "C:\Users\Yan\AppData\Roaming\fnm"
+$env:FNM_LOGLEVEL = "info"
+$env:FNM_NODE_DIST_MIRROR = "https://nodejs.org/dist"
+$env:FNM_COREPACK_ENABLED = "false"
+$env:FNM_RESOLVE_ENGINES = "true"
+$env:FNM_ARCH = "x64"
+```
+
+If you eval the value of the previous output, you will have the variables set. However, on my machine, the eval command did not work, so I had to set the env variables manually.
+
+### Setup
 Run PowerShell and use this command
 ```
 fnm env --use-on-cd | Out-String | Invoke-Expression
@@ -43,6 +64,13 @@ fnm env --use-on-cd | Out-String | Invoke-Expression
 ```
 fnm install 22
 ```
+
+### Use node.js
+```
+PS C:\Users\Yan> fnm use v22.13.1
+Using Node v22.13.1
+```
+
 ### Verify the Node.js version:
 ```
 node -v # Should print "v22.13.1".
