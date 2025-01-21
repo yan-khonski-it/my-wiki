@@ -45,3 +45,14 @@ node -v # Should print "v22.13.1".
 ```
 npm -v # Should print "10.9.2".
 ```
+
+### Uninstall nodejs
+Run the command, where 22 is the version of node.js you want to remove.
+```
+ fnm uninstall 22
+```
+
+## Uninstall Node.js from windows
+- https://www.geeksforgeeks.org/how-to-completely-remove-node-js-from-windows/
+- https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows
+
