@@ -119,3 +119,9 @@ Run the command, where 22 is the version of node.js you want to remove.
 - https://www.geeksforgeeks.org/how-to-completely-remove-node-js-from-windows/
 - https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows
 
+## How to add a new dependency to the project
+Add the depondency and its version to the package.json file.
+Then run insstall command, so the dependecy will be added to the node_modules.
+```
+npm install
+```
