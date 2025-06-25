@@ -98,3 +98,5 @@ https://ollama.com/library/llava
 - llava:13b
 
 Just paste image path or Base64 data:
+
+![bike image demo](./images/bike.png)
